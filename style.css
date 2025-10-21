@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth; /* enables smooth scrolling */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background: #c0392b;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd166;
+}
+
+#hero {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/b/b4/Cappadocia_hot_air_balloons_%28cropped%29.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #ddd;
+}
